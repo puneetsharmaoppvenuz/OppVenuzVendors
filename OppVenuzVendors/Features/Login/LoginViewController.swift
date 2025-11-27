@@ -28,7 +28,6 @@ final class LoginViewController: UIViewController {
     }
     
     private func stylizeButton() {
-        // Your GradientButton exists; if storyboard already uses it, this is no-op.
         // For normal UIButton, add gradient programmatically.
         if !(loginButton != nil) {
             addGradient(to: loginButton)
