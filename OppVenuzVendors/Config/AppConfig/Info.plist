@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Resources/Fonts/Poppins-Regular.ttf</string>
+		<string>Resources/Fonts/Poppins-SemiBold.ttf</string>
+		<string>Resources/Fonts/Inter-Regular.ttf</string>
+		<string>Resources/Fonts/Inter-Medium.ttf</string>
+		<string>Resources/Fonts/Inter-SemiBold.ttf</string>
+		<string>Resources/Fonts/RFBarbariska-Regular.ttf</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow camera access to capture profile photos, documents, and product images.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow microphone access when recording videos with sound.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow photo library access to choose images and videos for your profile and listings.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow saving edited images and downloads to your photo library.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Use Face ID to quickly and securely sign in.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow location access while using the app to show nearby venues and improve service availability.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow location access even when the app is not in use to enable accurate vendor discovery and background updates.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow continuous location access to support location-based features.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>VendorLocationPrecision</key>
+		<string>We temporarily need precise location to confirm your address and service coverage.</string>
+	</dict>
+	<key>BASE_URL</key>
+	<string>https://oppvenuz-backend-new.onrender.com/admin-master/baseApi/</string>
+</dict>
+</plist>

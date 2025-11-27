@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5FC31802ECAEC8D0098743D /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = D5FC317F2ECAEC8D0098743D /* GooglePlaces */; };
+		D5FC31822ECAEC8D0098743D /* GooglePlacesSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5FC31812ECAEC8D0098743D /* GooglePlacesSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5FC2C782EC1A5A60098743D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FC2C592EC1A5A40098743D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FC2C602EC1A5A40098743D;
+			remoteInfo = OppVenuzVendors;
+		};
+		D5FC2C822EC1A5A60098743D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FC2C592EC1A5A40098743D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FC2C602EC1A5A40098743D;
+			remoteInfo = OppVenuzVendors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5FC2C612EC1A5A40098743D /* OppVenuzVendors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OppVenuzVendors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FC2C772EC1A5A60098743D /* OppVenuzVendorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OppVenuzVendorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FC2C812EC1A5A60098743D /* OppVenuzVendorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OppVenuzVendorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D5FC2F852EC1B4650098743D /* Exceptions for "OppVenuzVendors" folder in "OppVenuzVendors" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Config/AppConfig/Info.plist,
+			);
+			target = D5FC2C602EC1A5A40098743D /* OppVenuzVendors */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D5FC2C632EC1A5A40098743D /* OppVenuzVendors */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D5FC2F852EC1B4650098743D /* Exceptions for "OppVenuzVendors" folder in "OppVenuzVendors" target */,
+			);
+			path = OppVenuzVendors;
+			sourceTree = "<group>";
+		};
+		D5FC2C7A2EC1A5A60098743D /* OppVenuzVendorsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OppVenuzVendorsTests;
+			sourceTree = "<group>";
+		};
+		D5FC2C842EC1A5A60098743D /* OppVenuzVendorsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OppVenuzVendorsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5FC2C5E2EC1A5A40098743D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FC31802ECAEC8D0098743D /* GooglePlaces in Frameworks */,
+				D5FC31822ECAEC8D0098743D /* GooglePlacesSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC2C742EC1A5A60098743D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC2C7E2EC1A5A60098743D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5FC2C582EC1A5A40098743D = {
+			isa = PBXGroup;
+			children = (
+				D5FC2C632EC1A5A40098743D /* OppVenuzVendors */,
+				D5FC2C7A2EC1A5A60098743D /* OppVenuzVendorsTests */,
+				D5FC2C842EC1A5A60098743D /* OppVenuzVendorsUITests */,
+				D5FC31792ECAEC130098743D /* Frameworks */,
+				D5FC2C622EC1A5A40098743D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5FC2C622EC1A5A40098743D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5FC2C612EC1A5A40098743D /* OppVenuzVendors.app */,
+				D5FC2C772EC1A5A60098743D /* OppVenuzVendorsTests.xctest */,
+				D5FC2C812EC1A5A60098743D /* OppVenuzVendorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FC31792ECAEC130098743D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5FC2C602EC1A5A40098743D /* OppVenuzVendors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FC2C8A2EC1A5A60098743D /* Build configuration list for PBXNativeTarget "OppVenuzVendors" */;
+			buildPhases = (
+				D5FC2C5D2EC1A5A40098743D /* Sources */,
+				D5FC2C5E2EC1A5A40098743D /* Frameworks */,
+				D5FC2C5F2EC1A5A40098743D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D5FC2C632EC1A5A40098743D /* OppVenuzVendors */,
+			);
+			name = OppVenuzVendors;
+			packageProductDependencies = (
+				D5FC317F2ECAEC8D0098743D /* GooglePlaces */,
+				D5FC31812ECAEC8D0098743D /* GooglePlacesSwift */,
+			);
+			productName = OppVenuzVendors;
+			productReference = D5FC2C612EC1A5A40098743D /* OppVenuzVendors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5FC2C762EC1A5A60098743D /* OppVenuzVendorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FC2C8F2EC1A5A60098743D /* Build configuration list for PBXNativeTarget "OppVenuzVendorsTests" */;
+			buildPhases = (
+				D5FC2C732EC1A5A60098743D /* Sources */,
+				D5FC2C742EC1A5A60098743D /* Frameworks */,
+				D5FC2C752EC1A5A60098743D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FC2C792EC1A5A60098743D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D5FC2C7A2EC1A5A60098743D /* OppVenuzVendorsTests */,
+			);
+			name = OppVenuzVendorsTests;
+			packageProductDependencies = (
+			);
+			productName = OppVenuzVendorsTests;
+			productReference = D5FC2C772EC1A5A60098743D /* OppVenuzVendorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5FC2C802EC1A5A60098743D /* OppVenuzVendorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FC2C922EC1A5A60098743D /* Build configuration list for PBXNativeTarget "OppVenuzVendorsUITests" */;
+			buildPhases = (
+				D5FC2C7D2EC1A5A60098743D /* Sources */,
+				D5FC2C7E2EC1A5A60098743D /* Frameworks */,
+				D5FC2C7F2EC1A5A60098743D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FC2C832EC1A5A60098743D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D5FC2C842EC1A5A60098743D /* OppVenuzVendorsUITests */,
+			);
+			name = OppVenuzVendorsUITests;
+			packageProductDependencies = (
+			);
+			productName = OppVenuzVendorsUITests;
+			productReference = D5FC2C812EC1A5A60098743D /* OppVenuzVendorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5FC2C592EC1A5A40098743D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					D5FC2C602EC1A5A40098743D = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					D5FC2C762EC1A5A60098743D = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D5FC2C602EC1A5A40098743D;
+					};
+					D5FC2C802EC1A5A60098743D = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D5FC2C602EC1A5A40098743D;
+					};
+				};
+			};
+			buildConfigurationList = D5FC2C5C2EC1A5A40098743D /* Build configuration list for PBXProject "OppVenuzVendors" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5FC2C582EC1A5A40098743D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D5FC317E2ECAEC8D0098743D /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D5FC2C622EC1A5A40098743D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5FC2C602EC1A5A40098743D /* OppVenuzVendors */,
+				D5FC2C762EC1A5A60098743D /* OppVenuzVendorsTests */,
+				D5FC2C802EC1A5A60098743D /* OppVenuzVendorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5FC2C5F2EC1A5A40098743D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC2C752EC1A5A60098743D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC2C7F2EC1A5A60098743D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5FC2C5D2EC1A5A40098743D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC2C732EC1A5A60098743D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC2C7D2EC1A5A60098743D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5FC2C792EC1A5A60098743D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FC2C602EC1A5A40098743D /* OppVenuzVendors */;
+			targetProxy = D5FC2C782EC1A5A60098743D /* PBXContainerItemProxy */;
+		};
+		D5FC2C832EC1A5A60098743D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FC2C602EC1A5A40098743D /* OppVenuzVendors */;
+			targetProxy = D5FC2C822EC1A5A60098743D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5FC2C8B2EC1A5A60098743D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/oppvenuz1/Desktop/OppVenuzApps/OppVenuzApps/VendorApp/OppVenuzVendors/OppVenuzVendors/Config/AppConfig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OppVenuz Vendor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oppvenuz.OppVenuzVendors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5FC2C8C2EC1A5A60098743D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/oppvenuz1/Desktop/OppVenuzApps/OppVenuzApps/VendorApp/OppVenuzVendors/OppVenuzVendors/Config/AppConfig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OppVenuz Vendor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oppvenuz.OppVenuzVendors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5FC2C8D2EC1A5A60098743D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5FC2C8E2EC1A5A60098743D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5FC2C902EC1A5A60098743D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oppvenuz.OppVenuzVendor.OppVenuzVendorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OppVenuzVendors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OppVenuzVendors";
+			};
+			name = Debug;
+		};
+		D5FC2C912EC1A5A60098743D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oppvenuz.OppVenuzVendor.OppVenuzVendorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OppVenuzVendors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OppVenuzVendors";
+			};
+			name = Release;
+		};
+		D5FC2C932EC1A5A60098743D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oppvenuz.OppVenuzVendor.OppVenuzVendorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OppVenuzVendors;
+			};
+			name = Debug;
+		};
+		D5FC2C942EC1A5A60098743D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oppvenuz.OppVenuzVendor.OppVenuzVendorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OppVenuzVendors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5FC2C5C2EC1A5A40098743D /* Build configuration list for PBXProject "OppVenuzVendors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FC2C8D2EC1A5A60098743D /* Debug */,
+				D5FC2C8E2EC1A5A60098743D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FC2C8A2EC1A5A60098743D /* Build configuration list for PBXNativeTarget "OppVenuzVendors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FC2C8B2EC1A5A60098743D /* Debug */,
+				D5FC2C8C2EC1A5A60098743D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FC2C8F2EC1A5A60098743D /* Build configuration list for PBXNativeTarget "OppVenuzVendorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FC2C902EC1A5A60098743D /* Debug */,
+				D5FC2C912EC1A5A60098743D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FC2C922EC1A5A60098743D /* Build configuration list for PBXNativeTarget "OppVenuzVendorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FC2C932EC1A5A60098743D /* Debug */,
+				D5FC2C942EC1A5A60098743D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5FC317E2ECAEC8D0098743D /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5FC317F2ECAEC8D0098743D /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FC317E2ECAEC8D0098743D /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		D5FC31812ECAEC8D0098743D /* GooglePlacesSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FC317E2ECAEC8D0098743D /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlacesSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5FC2C592EC1A5A40098743D /* Project object */;
+}
