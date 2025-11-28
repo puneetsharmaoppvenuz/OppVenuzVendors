@@ -155,6 +155,7 @@ extension VendorAPI {
     var needsLoader: Bool {
         switch self {
         case .baseAPI: return false
+        case .login: return true
         default:       return true
         }
     }

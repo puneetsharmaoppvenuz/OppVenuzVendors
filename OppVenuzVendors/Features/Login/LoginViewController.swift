@@ -9,14 +9,6 @@
 import UIKit
 import SwiftUI
 
-// MARK: - Safe decode types
-private struct AuthData: Decodable { let token: String? }
-private struct AuthResponseEnvelope: Decodable {
-    let status: Bool?
-    let message: String?
-    let data: AuthData?
-}
-
 final class LoginViewController: UIViewController {
     
     @IBOutlet weak var usernameField: UITextField!
@@ -77,14 +69,11 @@ final class LoginViewController: UIViewController {
     private func performLogin(username: String, mpin: String) {
         Task { @MainActor in
             do {
-                GlobalLoader.shared.show()
-                
                 let req: URLRequest = try APIRequestFactory.make(.login(username: username, mpin: mpin))
                 let resp: AuthResponseEnvelope = try await NetworkManager.shared
                     .requestJSON(req, decode: AuthResponseEnvelope.self)
-                
+    
                 GlobalLoader.shared.hideAfterResponse(minDelay: 1.0)
-                
                 if let token = resp.data?.token, (resp.status ?? true) {
                     VendorSessionManager.shared.setToken(token)
                     routeToHome()
@@ -183,10 +172,10 @@ final class LoginViewController: UIViewController {
             self?.routeToHome()
         }
         let host = UIHostingController(rootView: successView)
+
+        host.navigationItem.hidesBackButton = true
         host.modalPresentationStyle = .fullScreen
-        
-        // Make success screen the only VC in navigation stack
-        navigationController?.setViewControllers([host], animated: true)
+        navigationController?.pushViewController(host, animated: true)
     }
     
 }
@@ -200,6 +189,7 @@ extension LoginViewController: MPINPopupDelegate {
     
     func mpinPopup(_ popup: MPINPopupViewController, didTapProceed username: String, mpin: String) {
         popup.dismiss(animated: true) { [weak self] in
+            GlobalLoader.shared.show()
             self?.performLogin(username: username, mpin: mpin)
         }
     }
